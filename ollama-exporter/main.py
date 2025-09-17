@@ -1,8 +1,8 @@
 from fastapi import FastAPI
 
 app = FastAPI(
-    title="APM Service",
-    description="A service for Application Performance Monitoring",
+    title="OLLAMA EXPORTER",
+    description="OLLAMA EXPORTER REST API",
     version="1.0.0",
     docs_url="/docs",
     redoc_url="/redoc",
@@ -14,10 +14,10 @@ async def root():
     root endpoint
     """
     return {
-        "service": "APM Service REST API",
+        "service": "OLLAMA EXPORTER REST API",
         "version": "1.0.0",
         "status": "running",
-        "description": "A service for Application Performance Monitoring",
+        "description": "OLLAMA EXPORTER REST API",
         "endpoints": [
             "GET /"
         ]
