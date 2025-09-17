@@ -14,7 +14,7 @@ services:
     volumes:
       - ../..:/workspaces:cached
     ports:
-      - "28000:28000"
+      - "24000:24000"
 
 networks:
   default:
