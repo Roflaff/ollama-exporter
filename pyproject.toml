@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "langfuse-exporter"
+name = "ollama-exporter"
 version = "0.1.0"
-description = ""
+description = "pyshark + prometheus exporter"
 authors = ["Roflaff <kimsp0317@gmail.com>"]
 license = "MIT"
 
